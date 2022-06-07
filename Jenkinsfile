@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Source Code') {
             steps {
-                git url: 'https://github.com/samineni1927/Javaexcercise.git',
+                git url: https://github.com/sanjayreddyg/js-e2e-express-server.git,
                 branch: 'main'
             }
           stage('install dependancies') {
